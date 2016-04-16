@@ -1,0 +1,170 @@
+
+/*
+**  http://www.diku.dk/styles/diku.css
+**
+**      The style used by official web pages at DIKU.  The use of CSS
+**      elements has been limited to a minimum in order to prevent too
+**      many differences in the presentation of pages with different
+**      browsers.
+**
+**      Copyright © 2000 DIKU
+*/
+
+/*
+**  Fonts:
+**      The body of the text is set in whatever font is chosen by the
+**      browser/user while all headings are set in a sans serif font.
+*/
+
+H1, H2, H3, H4, H5, H6 {
+        font-family:            Lucida, Gill, Arial, Helvetica, sans-serif;
+}
+
+H1 {
+        font-weight:            bold;
+}
+
+H2 {
+        font-weight:            bold;
+}
+
+H3, H4 {
+        font-weight:            bolder;
+}
+
+H5, H6 {
+        font-weight:            normal;
+}
+
+/*
+**  Backgrounds:
+**      All pages are set on a slightly off-white background.  When 
+**      blocks of text needs to be emphasized we use a light olive 
+**      background.  The decorative line used above an address is
+**      set with in black.
+**
+**      The gray backgrounds are used for emphasizing rows in tables.
+*/
+
+BODY {
+        background:             #f2f0e6;
+}
+
+.bgnorm {
+        background:             #f2f0e6;
+}
+
+.bgemph {
+        background:             #cccc99;
+        border-color:           #cccc99;
+}
+
+.bggray0 {
+        background:             #cccccc;
+        border-color:           #cccccc;
+}
+
+.bggray1 {
+        background:             #e6e6e6;
+        border-color:           #e6e6e6;
+}
+
+ADDRESS {
+        border-color:           #000000;
+}
+
+/*
+**  Colors:
+**      The body of the text is set in black.  Links are set in a dusty 
+**      blue while visited links are set in a dusty red.
+*/
+
+BODY {
+        color:                  #000000;
+}
+
+.fgnorm {
+        color:                  #000000;
+}
+
+A:link {
+        color:                  #3366cc;
+}
+
+.fglink {
+        color:                  #3366cc;
+}
+
+A:visited {
+        color:                  #990000;
+}
+
+.fgseen {
+        color:                  #990000;
+}
+
+/*
+**  Text properties:
+**      Top level headings are centered while other headings are aligned 
+**      to the left.  Addresses are centered.  Links are set without 
+**      underlining.
+*/
+
+H1 {
+        text-align:             center;
+}
+
+H2, H3, H4, H5, H6 {
+        text-align:             left;
+}
+
+ADDRESS {
+        text-align:             center;
+}
+
+A {
+        text-decoration:        none;
+}
+
+/*
+**  Boxes and borders:
+**      Top level headings have a larger amount of blank space above 
+**      than other headings.  Addresses have a thin decorative line 
+**      above.
+*/
+
+H1 {
+        padding-top:            1em;
+        border-bottom-width:    thin;
+        border-bottom-style:    solid;
+}
+
+H2, H3, H4, H5, H6 {
+        padding-top:            0.5em;
+}
+
+.bgemph {
+        border-style:           none;
+        border-width:           thin;
+        margin-left:            -1em;
+        margin-right:           -1em;
+        padding:                0.2em;
+}
+
+H2.bgemph, H3.bgemph, H4.bgemph, H5.bgemph, H6.bgemph {
+        text-indent:            1em;
+}
+
+ADDRESS {
+        border-top-width:       thin;
+        border-top-style:       solid;
+}
+
+/*
+**  List items:
+**      List items are marked with a blue bullet which matches the 
+**      colors used in the background of the page header.
+*/
+
+
+

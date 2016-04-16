@@ -1,0 +1,160 @@
+/*
+Theme Name: Quentin
+Theme URI: http://www.pikemurdy.com/quentin/
+Description: Nebula flavoured Manji
+Version: 0.9
+Author: Mike Purdy
+Author URI: http://www.pikemurdy.com/ 
+
+
+Quentin Theme for Wordpress. Copyright (C) 2005 Mike Purdy.
+
+The Quentin template was designed by Mike Purdy (www.pikemurdy.com)
+
+License -
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+You may edit and modify this theme. But please leave the credit 
+line, and don't try to pass off my work as your own. Thank You.
+
+This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free Software 
+Foundation, version 2 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A 
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+*/
+
+
+img.pmark {
+	display: none;
+}
+
+body {
+	font-family: "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: medium !important;
+	line-height: normal !important;
+}
+/* typography --------------------------------- */
+
+p, h1, h2, h3, h4, h5, h6, li, .feedback {
+	font-family: "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+}
+
+
+h2.storytitle
+	{
+	font: italic 150% "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	margin: 15px 0 5px 0;
+	}
+#header h1{
+	font: 150% "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+	margin: 40px 0 5px 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}	
+#header h3{
+	font: normal 90% "lucida grande", "trebuchet ms", georgia, times, serif;
+	margin: 0 0 68px 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+#header img {
+	display: none;
+}
+
+a {
+  color: #000000;
+/*    color: #9933FF; */
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+a:visited {
+	color: #000000;
+/*    color: #9933FF; */
+}
+
+/* Layout --------------------------------- */
+
+#rap {
+	margin: 0 auto 0 auto;
+	padding: 0 15px;
+	border: 0px solid #411213;
+	}
+/* Tan IE5 box model fix
+	Hides from IE5-mac \*/
+* html #rap {
+}	
+#content  {
+	background: url(/images/quentin-bg2.gif) repeat-y right top;
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding: 0 15px 15px 15px;
+	overflow: hidden;
+	display: inline; /* IE double margin fix */
+}
+
+/* Tan IE5 box model fix
+	Hides from IE5-mac \*/
+* html #content {
+	width: 470px;
+	w\idth: 470px;
+}
+
+#menu {
+	display: none;
+}
+
+#footer {
+	display: none;
+}
+
+#commentform textarea {
+	width: 100%;
+	margin: 2em 2em 2em 2em; 
+}
+
+#content textarea {
+	margin: 0 0 5px 0 ;
+	background: #F6EDD3;
+	border: 1px solid #999;
+	color: #000;
+}
+
+#content input#sub {
+	margin: 0 0 5px 0 ;
+	width: 20ex;
+	font-size: 100%;
+	font-style: italic; 
+	background-color: #F6EDD3; 
+	font-family: "Hoefler Text", Georgia, "Times New Roman", Times, serif; 
+	color: #000;
+	border: 1px solid #999;
+	}
+#content input#res {
+	margin: 0 0 5px 5em ;
+	width: 20ex;
+	font-size: 100%;
+	font-style: italic; 
+	background-color: #F6EDD3; 
+	font-family: "Hoefler Text", Georgia, "Times New Roman", Times, serif; 
+	color: #000;   
+	border: 1px solid #999;
+	}
+
+
+
