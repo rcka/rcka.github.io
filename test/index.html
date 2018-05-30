@@ -1,13 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
   <title>Demo</title>
+  <meta charset="UTF-8">
 </head>
 <body>
 
-<h1>Dette er en test ..</h1>
+<h1>Brug af GitHub Pages</h1>
 
-Kan jeg push'e?
+
+
+<h3>Opret lokal arbejds kopi</h3>
+
+For at redigere hjemmesiden, skal man lave en kopi lokalt, som
+man kan arbejde på - dette kaldes at lave en 'clone'. For at lave en
+'clone', skal man bruge en "git klient" - i denne gannemgang vil jeg bruge
+progammet <a href="">Git on Windows</a>. En god introduktion til
+hvad man kan med GIT og programmer til andre platforme kan findes
+på siden <a href="https://git-scm.com/book/en/v2">GIT Pro</a><p>
+
+
+Efter  programmet er installerte, starter man Git GUI og vælger
+"Clone Existing Repositoy", hvorefter man skal udfylde felterne på denne måde:
+<br><img src="pics/git-clone.png" width="75%"><br>
+
+Det eneste der er vigtigt, er at "Source Location" skal være:
+<pre>
+https://github.com/Frk-Stampes-Massage/Frk-Stampes-Massage.github.io.git
+</pre>
+- Target Directory skal blot være en ny mappe et sted på den lokale computer.<p>
+Efter at have klikket "Clone" hentes en lokal kopi af hjemmesiden og man kan nu
+redigere filerne lokalt.<p>
+
+<h3>Læg rettelser på nettet</h3>
+Når man er færdig med at redigere filerne, skal rettelserne lægges på nettet.
+Dette gøres ved at starte Git GUI igen og denne gang vælge det repository man
+"clonede" tidligere - alternativt kan man højre klikke på mappen og vælge
+"Git GUI Here":
+<br><img src="pics/start-git-gui.png" width="75%"><br>
+
+Git GIU vil nu vise hvilke filer der er rettet - og hvilke ændringer der er
+lavet - i dette eksempel har jeg rettet lidt i teksten om baby'er (baby.html):
+
+<br><img src="pics/git-check-edit.png" width="75%"><br>
+Hvis man er tilfreds med rettelserne, klikker man først "Stage Changed"
+<br><img src="pics/git-after-clone.png" width="75%"><br>
+og dernæst "Commit". Bemærk at man skal udfylde "Commit Message" for at lave en
+commit. Når rettelserne er "Commit'ed" lokalt, skal de også gemmes på serveren.
+<br>
+Dette gøres ved at klikke på "Push". Dette vil bede om login oplysninger
+(Frk-Stampes-Massage & Kodeord):<br>
+<img src="pics/github-login.png" width="75%"><br>
+Hvis brugernavn og kodeord er korrekt, vil ændringerne blive kopieret til
+nettet og være synlige kort tid efter.
+
+<!---
+<img src="pics/edit-open.png" width="75%">
+<img src="pics/edit-view-change.png" width="75%">
+4
+
+<p>5
+<img src="pics/git-edit-new-options.png" width="75%">
+
+<img src="pics/git-start-push.png" width="75%">
+<p>6
+<img src="pics/git-edit-options.png" width="75%">
+
+<p>7
+<img src="pics/git-push.png" width="75%">
+
+<p>8
+
+<p>9
+<img src="pics/view-files.png" width="75%">
+--->h
 
 </body>
 </html>
